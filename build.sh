@@ -1,7 +1,13 @@
 echo "Clean previous build"
-cd out
-rm -rf jlearn
-cd ../jlearn
+if [ -d "./out" ]
+then
+    cd out
+    rm -rf jlearn
+    cd ../jlearn
+else
+    mkdir out
+    cd jlearn
+fi
 
 export OUT_DIR=../out
 export _javac="javac -cp $OUT_DIR -d $OUT_DIR"
