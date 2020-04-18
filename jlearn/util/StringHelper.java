@@ -28,4 +28,14 @@ public class StringHelper {
             stringBuilder.append(padChar);
         return stringBuilder.toString();
     }
+
+    public static final boolean isInteger(String text) {
+        try {
+            Integer.parseInt(text);
+            return true;
+        }
+        catch (Exception ex) {
+            return false;
+        }
+    }
 }

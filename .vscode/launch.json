@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<jlearn-proj_1a7dd25e>",
+            "request": "launch",
+            "mainClass": "jlearn.Main",
+            "projectName": "jlearn-proj_1a7dd25e",
+            "args": "121 15 git-bash"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-VariablesSample<jlearn-proj_1a7dd25e>",
+            "request": "launch",
+            "mainClass": "jlearn.variables.VariablesSample",
+            "projectName": "jlearn-proj_1a7dd25e"
+        }
+    ]
+}
